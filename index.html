@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="Stylesheet.css" type="text/css" rel="Stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <title></title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Table Finder</h1>
+    <h2>Pick your table now</h2>
+  </div>
+  <div id="seatingChart">
+    <div class="table available" id="1">1</div>
+    <div class="table available" id="2">2</div>
+    <div class="table available" id="3">3</div><br>
+    <div class="table available" id="4">4</div>
+    <div class="table available" id="5">5</div>
+    <div class="table available" id="6">6</div><br>
+    <div class="table available" id="7">7</div>
+    <div class="table available" id="8">8</div>
+    <div class="table available" id="9">9</div>
+  </div>
+  <div id="newRes" style="display:none">
+    <form id="formHeader">New Reservation
+      <i class="material-icons">close</i>
+      <div id="formTable"></div>
+      <div><input id="customer" type="text" placeholder="Customer"></div>
+      <div><input id="phone" type="text" placeholder="Phone"></div>
+      <div><input id="partySize" type="text" placeholder="Party Size"></div>
+      <div id="saveContainer"><input class="save" type="button" value="SAVE"></div>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
